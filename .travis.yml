@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  "lts/*"
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm i -D
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local-dir: dist
+  github-token: $GITHUB_DEPLOY_KEY
+  on:
+    branch: master
+  fqdn: speak.tkbneu.net

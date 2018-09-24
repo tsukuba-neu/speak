@@ -5,6 +5,11 @@
   "repository": "https://github.com/tsukuba-neu/speak.git",
   "author": "Puppetry Troupe NEU<tsukuba.neu@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nuxt",
+    "dev": "nuxt dev",
+    "build": "nuxt generate"
+  },
   "dependencies": {
     "nuxt": "^1.4.2"
   },
