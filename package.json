@@ -11,7 +11,8 @@
     "build": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.4.2"
+    "nuxt": "^1.4.2",
+    "yaml-loader": "^0.5.0"
   },
   "devDependencies": {
     "node-sass": "^4.9.3",
